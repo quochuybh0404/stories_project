@@ -1,0 +1,32 @@
+{% extends 'stories/_Master.html' %}
+{% load static %}
+
+{% block main_content %}
+{% block title_tab %} {{story.name}} | Stories for Children{% endblock %}
+
+<div class="single">
+    <div id="fh5co-title-box"
+        style="background-image: url({{story.image.url}}); background-position: 50% 90.5px;"
+        data-stellar-background-ratio="0.5">
+        <div class="overlay"></div>
+        <div class="page-title">
+            <img src="{{story.image.url}}" alt="{{story.name}}">
+            <span>{{story.public_day}}</span>
+            <h2>{{story.name}}</h2>
+        </div>
+    </div>
+    <div id="fh5co-single-content" class="container-fluid pb-4 pt-4 paddding">
+        <div class="container paddding">
+            <div class="row mx-0">
+                <div class="col-md-8 animate-box" data-animate-effect="fadeInLeft">
+                    {{story.content|safe}}
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    
+    
+
+</div>
+{% endblock %}
