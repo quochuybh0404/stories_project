@@ -6,5 +6,5 @@ feedparser
 argon2-cffi
 django-mathfilters
 requests
-SQLite==3.8.3
+
 
