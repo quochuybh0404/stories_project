@@ -6,7 +6,6 @@ feedparser
 argon2-cffi
 django-mathfilters
 requests
-pysqlite3
-pysqlite3-binary
+
 
 
