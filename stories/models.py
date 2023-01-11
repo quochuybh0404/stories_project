@@ -4,7 +4,7 @@ from ckeditor_uploader.fields import RichTextUploadingField
 from django.utils import timezone
 import datetime
 
-from matplotlib import image
+
 # Create your models here.
 class Category(models.Model):
     name = models.CharField(max_length= 150, unique= True)
