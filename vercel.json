@@ -2,7 +2,6 @@
     "builds": [{
         "src": "MyNew/wsgi.py",
         "use": "@vercel/python",
-        "runtime": "vercel-php@0.1.0",
         "config": { "maxLambdaSize": "5mb", "runtime": "python3.9" }
     }],
     "routes": [
