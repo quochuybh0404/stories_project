@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-a&v)q3uw5rz#$y4blp4amq&w6p&6dye7pti6ah$#a5p3@^hei(
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["web-production-5394.up.railway.app", "localhost", "127.0.0.1"]
+ALLOWED_HOSTS = ["stories-project.vercel.app'"]
 CSRF_TRUSTED_ORIGINS = ['https://web-production-5394.up.railway.app']
 
 
