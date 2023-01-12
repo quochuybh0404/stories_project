@@ -6,6 +6,4 @@ feedparser
 argon2-cffi
 django-mathfilters
 requests
-
-
-
+pymysql
