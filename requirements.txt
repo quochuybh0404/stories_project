@@ -6,4 +6,5 @@ feedparser
 argon2-cffi
 django-mathfilters
 requests
-
+sqlparse==0.4.3
+tzdata==2022.7
